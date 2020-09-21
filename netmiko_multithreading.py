@@ -10,10 +10,6 @@ from netmiko.ssh_exception import NetMikoTimeoutException
 from paramiko.ssh_exception import SSHException
 from netmiko.ssh_exception import AuthenticationException
 import json
-sys.path.insert(0, '/home/sun/taf/src/customs/')
-sys.path.insert(0, '/home/sun/taf/src/customs/CommonMethods')
-os.chdir('/home/sun/taf/src/customs/BgpTCsList/testing_scripts/')
-import tafenvironment_testing_1 as taf
 from random import random
 import threading
 import BGPCommonMethods_bkp as stObj
