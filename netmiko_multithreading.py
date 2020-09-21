@@ -89,7 +89,7 @@ BGP = VerifyBGPADPathSelection()
 
 def connect_to_device():
 
-    devices = BGP.read_devices('/home/sun/taf/src/customs/BgpTCsList/testing_scripts/device_list.txt')
+    devices = BGP.read_devices('path/to/text_file/having/below/five_parameters')
     starting_time = time()
 
     config_threads_list = []
